@@ -1,0 +1,3 @@
+[console_scripts]
+svg2mod = svg2mod.svg2mod:main
+
