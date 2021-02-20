@@ -1,4 +1,4 @@
-# ESP32_Plotter_Controller
+# ESP32 Plotter Controller PCB
  
 Released under an MIT licence, no warranty implied or given, use at own risk etc etc.
 
