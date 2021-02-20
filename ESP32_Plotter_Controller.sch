@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "ESP32 Plotter Controller"
 Date "2021-02-20"
-Rev "0.1"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -229,8 +229,6 @@ Wire Notes Line
 	750  10910 750  7010
 Text Notes 1050 7460 0    118  ~ 0
 Power
-Text Notes 3050 10485 0    50   ~ 0
-Replace the power circuit with something available from jlcpcb (TI TPS54331 maybe? 25cents each...\n\nXL1509-5.0E1 (20 cents each - fixed 5v)
 $Comp
 L custom:XL1509 U4
 U 1 1 6018C860
@@ -785,8 +783,8 @@ F 3 "~" H 17600 6385 50  0001 C CNN
 	1    17600 6385
 	1    0    0    -1  
 $EndComp
-Text Notes 15050 12575 0    79   ~ 0
-ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/<repo_name>\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
+Text Notes 15000 12575 0    79   ~ 0
+ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
 Text Label 6530 5300 2    50   ~ 0
 CS_AUX
 Wire Wire Line
@@ -1018,8 +1016,6 @@ Text Label 10425 7410 2    50   ~ 0
 SCL
 Text Label 10425 7510 2    50   ~ 0
 SDA
-Text Notes 3275 2735 0    50   ~ 0
-Moved X_Limit and Y_Limit to input only pins (GPIO34/35) from (GPIO32/GPIO4) respectivley.
 $Comp
 L power:GND #NetPort06
 U 1 1 602F4570
@@ -1161,8 +1157,6 @@ Wire Wire Line
 	12300 10260 12475 10260
 Wire Wire Line
 	12475 10260 12475 10460
-Text Notes 10975 10510 0    50   ~ 0
-LCSC Part No: C91145
 Wire Wire Line
 	16750 6085 17500 6085
 Wire Wire Line
