@@ -4,12 +4,12 @@ EELAYER END
 $Descr User 19685 13780
 encoding utf-8
 Sheet 1 1
-Title "ESP32 Pen Plotter Controller"
-Date "2021-01-31"
+Title "ESP32 Plotter Controller"
+Date "2021-02-20"
 Rev "0.1"
 Comp ""
 Comment1 ""
-Comment2 "Schematic"
+Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -785,8 +785,8 @@ F 3 "~" H 17600 6385 50  0001 C CNN
 	1    17600 6385
 	1    0    0    -1  
 $EndComp
-Text Notes 18900 15375 0    79   ~ 0
-Redesign by Mark Benson\nBased on Bart Drings ESP32\nPen Plotter Controller\nhttps://github.com/bdring/\nGrbl_ESP32_TMC2130_Plotter_Controller
+Text Notes 15050 12575 0    79   ~ 0
+ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/<repo_name>\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
 Text Label 6530 5300 2    50   ~ 0
 CS_AUX
 Wire Wire Line
