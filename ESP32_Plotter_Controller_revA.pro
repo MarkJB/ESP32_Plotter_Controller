@@ -1,4 +1,4 @@
-update=08/03/2021 17:52:08
+update=05/04/2021 17:56:33
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=ESP32_Plotter_Controller.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -70,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
