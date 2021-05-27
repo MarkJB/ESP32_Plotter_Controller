@@ -6,7 +6,7 @@ This is a two axis stepper controller based on the ESP32 and TMC2130 stepper dri
 
 See https://github.com/MarkJB/TMC429_Daughterboard_for_ESP32_Plotter_Controller for the TMC429 (Hardware stepper driver contoller) daughter board for this board (plugs into the two stepper motor driver sockets and provides an extra axis and hardware acceleration control.
 
-Firmware TBD
+Firmware https://github.com/MarkJB/Grbl_Esp32 (This is a Fork of Grbl_Esp32, if its out of date, you probably only need the config file from this fork)
 
 First board revision A (aka 'Diamiond Chimp')
 
