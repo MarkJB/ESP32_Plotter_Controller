@@ -583,59 +583,27 @@ Wire Wire Line
 Wire Wire Line
 	1800 6685 1800 6410
 $Comp
-L Connector:Conn_01x06_Male J5
-U 1 1 607F3660
-P 9700 1635
-F 0 "J5" H 9592 1110 50  0000 C CNN
-F 1 "Limit Switches" H 9592 1201 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 9700 1635 50  0001 C CNN
-F 3 "~" H 9700 1635 50  0001 C CNN
-	1    9700 1635
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 1435 10775 1435
-Wire Wire Line
-	10775 1435 10775 1535
-Wire Wire Line
-	9900 1935 10625 1935
-Wire Wire Line
-	9900 1835 10625 1835
-Wire Wire Line
-	10625 1835 10625 1935
-Wire Wire Line
-	9900 1635 10975 1635
-Wire Wire Line
-	9900 1735 11250 1735
-$Comp
 L Device:R R2
 U 1 1 6083E053
-P 11400 1735
-F 0 "R2" V 11193 1735 50  0000 C CNN
-F 1 "100" V 11284 1735 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 1735 50  0001 C CNN
-F 3 "~" H 11400 1735 50  0001 C CNN
-	1    11400 1735
+P 11100 2200
+F 0 "R2" V 10893 2200 50  0000 C CNN
+F 1 "100" V 10984 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 2200 50  0001 C CNN
+F 3 "~" H 11100 2200 50  0001 C CNN
+	1    11100 2200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 6083EB0D
-P 11125 1635
-F 0 "R1" V 10918 1635 50  0000 C CNN
-F 1 "100" V 11009 1635 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11055 1635 50  0001 C CNN
-F 3 "~" H 11125 1635 50  0001 C CNN
-	1    11125 1635
+P 11100 1600
+F 0 "R1" V 10893 1600 50  0000 C CNN
+F 1 "100" V 10984 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11030 1600 50  0001 C CNN
+F 3 "~" H 11100 1600 50  0001 C CNN
+	1    11100 1600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	11550 1735 11700 1735
-Wire Wire Line
-	11275 1635 11950 1635
-Wire Wire Line
-	10775 1535 10775 2485
-Connection ~ 10775 1535
 Wire Wire Line
 	11950 2185 11950 2485
 Wire Wire Line
@@ -643,13 +611,6 @@ Wire Wire Line
 Wire Wire Line
 	11700 1885 11700 1735
 Connection ~ 11700 1735
-Wire Wire Line
-	11950 1885 11950 1635
-Connection ~ 11950 1635
-Text Label 12300 1635 2    50   ~ 0
-X_Limit
-Wire Wire Line
-	11950 1635 12300 1635
 Wire Wire Line
 	11700 1735 12300 1735
 $Comp
@@ -688,8 +649,9 @@ U 1 1 608DEBB9
 P 16125 6935
 F 0 "J10" H 16233 7216 50  0000 C CNN
 F 1 "Pen Lift" H 16233 7125 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 16125 6935 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 16125 6935 50  0001 C CNN
 F 3 "~" H 16125 6935 50  0001 C CNN
+F 4 "C10400 (JST PH TH RA)" H 16125 6935 50  0001 C CNN "LCSC"
 	1    16125 6935
 	1    0    0    -1  
 $EndComp
@@ -705,8 +667,9 @@ U 1 1 609055FD
 P 17600 2535
 F 0 "J12" H 18020 2430 50  0000 R CNN
 F 1 "X Motor" H 18140 2585 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 17600 2535 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 17600 2535 50  0001 C CNN
 F 3 "~" H 17600 2535 50  0001 C CNN
+F 4 "C10401 JST PH TH RA" H 17600 2535 50  0001 C CNN "LCSC"
 	1    17600 2535
 	1    0    0    -1  
 $EndComp
@@ -716,16 +679,14 @@ U 1 1 609064BE
 P 17600 4935
 F 0 "J13" H 17975 4795 50  0000 R CNN
 F 1 "Y Motor" H 18155 4980 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 17600 4935 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 17600 4935 50  0001 C CNN
 F 3 "~" H 17600 4935 50  0001 C CNN
+F 4 "C10401 JST PH TH RA" H 17600 4935 50  0001 C CNN "LCSC"
 	1    17600 4935
 	1    0    0    -1  
 $EndComp
 Text Notes 15000 12575 0    79   ~ 0
 ESP32 Plotter Controller\nDesign by Mark Benson github.com/markjb/ESP32_Plotter_Controller\nBased on Bart Drings ESP32 Pen Plotter Controller\nhttps://github.com/bdring/Grbl_ESP32_TMC2130_Plotter_Controller
-Wire Wire Line
-	10625 1835 10625 1285
-Connection ~ 10625 1835
 Wire Notes Line
 	8675 760  13575 760 
 Wire Notes Line
@@ -740,8 +701,9 @@ U 1 1 60A36016
 P 9050 4285
 F 0 "J6" H 9158 4766 50  0000 C CNN
 F 1 "Aux Port (SPI)" H 9158 4675 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 9050 4285 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal" H 9050 4285 50  0001 C CNN
 F 3 "~" H 9050 4285 50  0001 C CNN
+F 4 "C14531 JST PH TH RA" H 9050 4285 50  0001 C CNN "LCSC"
 	1    9050 4285
 	1    0    0    -1  
 $EndComp
@@ -822,8 +784,9 @@ U 1 1 60B0CF1B
 P 11570 3905
 F 0 "J14" H 11678 4186 50  0000 C CNN
 F 1 "Neo Pixel LEDs" H 11678 4095 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 11570 3905 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 11570 3905 50  0001 C CNN
 F 3 "~" H 11570 3905 50  0001 C CNN
+F 4 "C10400 (JST PH TH RA)" H 11570 3905 50  0001 C CNN "LCSC"
 	1    11570 3905
 	1    0    0    -1  
 $EndComp
@@ -869,8 +832,9 @@ U 1 1 60BACFF9
 P 11570 4360
 F 0 "J15" H 11678 4541 50  0000 C CNN
 F 1 "Pen Direction" H 11678 4450 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 11570 4360 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 11570 4360 50  0001 C CNN
 F 3 "~" H 11570 4360 50  0001 C CNN
+F 4 "C16965 (JST PH TH RA)" H 11570 4360 50  0001 C CNN "LCSC"
 	1    11570 4360
 	1    0    0    -1  
 $EndComp
@@ -895,8 +859,9 @@ U 1 1 60211293
 P 9100 5760
 F 0 "J16" H 9208 6141 50  0000 C CNN
 F 1 "Aux Port (I2C)" H 9208 6050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9100 5760 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 9100 5760 50  0001 C CNN
 F 3 "~" H 9100 5760 50  0001 C CNN
+F 4 "C5662 (JST PH TH RA)" H 9100 5760 50  0001 C CNN "LCSC"
 	1    9100 5760
 	1    0    0    -1  
 $EndComp
@@ -946,8 +911,6 @@ Text Label 10425 6060 2    50   ~ 0
 SDA
 Wire Wire Line
 	11770 4005 12070 4005
-Wire Wire Line
-	9900 1535 10775 1535
 Wire Wire Line
 	10650 8510 9875 8510
 Wire Wire Line
@@ -1074,8 +1037,9 @@ U 1 1 609E0415
 P 2200 8085
 F 0 "J4" H 2308 8266 50  0000 C CNN
 F 1 "Vin Aux" H 2308 8175 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 2200 8085 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 2200 8085 50  0001 C CNN
 F 3 "~" H 2200 8085 50  0001 C CNN
+F 4 "C16965 (JST PH TH RA)" H 2200 8085 50  0001 C CNN "LCSC"
 	1    2200 8085
 	1    0    0    -1  
 $EndComp
@@ -1093,8 +1057,9 @@ U 1 1 607DA111
 P 1450 8085
 F 0 "J3" H 1558 8266 50  0000 C CNN
 F 1 "5V Aux" H 1425 8160 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 1450 8085 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 1450 8085 50  0001 C CNN
 F 3 "~" H 1450 8085 50  0001 C CNN
+F 4 "C16965 (JST PH TH RA)" H 1450 8085 50  0001 C CNN "LCSC"
 	1    1450 8085
 	1    0    0    -1  
 $EndComp
@@ -1752,8 +1717,9 @@ U 1 1 61ACBD71
 P 7020 3510
 F 0 "J18" H 7128 3691 50  0000 C CNN
 F 1 "E-Stop" H 7128 3600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 7020 3510 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 7020 3510 50  0001 C CNN
 F 3 "~" H 7020 3510 50  0001 C CNN
+F 4 "C16965 (JST PH TH RA)" H 7020 3510 50  0001 C CNN "LCSC"
 	1    7020 3510
 	1    0    0    -1  
 $EndComp
@@ -1776,4 +1742,65 @@ F 3 "" H 7520 3745 50  0001 C CNN
 	1    7520 3745
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 6159A72B
+P 9650 1600
+F 0 "J5" H 9758 1881 50  0000 C CNN
+F 1 "X Limit Switch" H 9758 1790 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 9650 1600 50  0001 C CNN
+F 3 "~" H 9650 1600 50  0001 C CNN
+F 4 "C10400 (JST PH TH RA)" H 9650 1600 50  0001 C CNN "LCSC"
+	1    9650 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J19
+U 1 1 6159BC1E
+P 9650 2200
+F 0 "J19" H 9758 2481 50  0000 C CNN
+F 1 "Y Limit Switch" H 9758 2390 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 9650 2200 50  0001 C CNN
+F 3 "~" H 9650 2200 50  0001 C CNN
+F 4 "C10400 (JST PH TH RA)" H 9650 2200 50  0001 C CNN "LCSC"
+	1    9650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10625 1285 10625 1500
+Wire Wire Line
+	9850 1500 10625 1500
+Connection ~ 10625 1500
+Wire Wire Line
+	9850 2100 10625 2100
+Wire Wire Line
+	10625 1500 10625 2100
+Wire Wire Line
+	9850 2300 10775 2300
+Connection ~ 10775 2300
+Wire Wire Line
+	10775 2300 10775 2485
+Wire Wire Line
+	9850 1700 10775 1700
+Wire Wire Line
+	10775 1700 10775 2300
+Wire Wire Line
+	9850 1600 10950 1600
+Wire Wire Line
+	9850 2200 10950 2200
+Wire Wire Line
+	11250 1600 11950 1600
+Text Label 12300 1600 2    50   ~ 0
+X_Limit
+Wire Wire Line
+	11950 1885 11950 1600
+Connection ~ 11950 1600
+Wire Wire Line
+	11950 1600 12300 1600
+Wire Wire Line
+	11475 1735 11475 2200
+Wire Wire Line
+	11475 2200 11250 2200
+Wire Wire Line
+	11475 1735 11700 1735
 $EndSCHEMATC
