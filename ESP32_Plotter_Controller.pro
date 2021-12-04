@@ -1,6 +1,6 @@
-update=20/02/2021 14:42:10
+update=04/12/2021 11:38:21
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=Schematic_RevB1
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
