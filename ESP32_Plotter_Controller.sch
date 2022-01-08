@@ -1156,6 +1156,7 @@ F 0 "J8" H 12380 8206 50  0000 L CNN
 F 1 "Micro_SD_Card_TF-01A" H 12380 8115 50  0000 L CNN
 F 2 "custom:HK-TF01A" H 12700 8510 50  0001 C CNN
 F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 11550 8210 50  0001 C CNN
+F 4 "C91145 " H 11550 8210 50  0001 C CNN "LCSC"
 	1    11550 8210
 	1    0    0    -1  
 $EndComp
