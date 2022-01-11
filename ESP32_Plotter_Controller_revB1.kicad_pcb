@@ -772,6 +772,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diode_SMD:D_SOD-123 (layer F.Cu) (tedit 61DC950B) (tstamp 615F606D)
@@ -1702,6 +1707,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Connector_USB.3dshapes/HRO_TYPE-C-31-M-12.step
+      (offset (xyz -4.5 -3.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connector_BarrelJack:BarrelJack_Horizontal (layer F.Cu) (tedit 5A1DBF6A) (tstamp 601B8EA4)
@@ -1755,6 +1765,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-063BH_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -3106,6 +3121,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_Bourns_SRR1260.step
+      (at (xyz 0 0 0))
+      (scale (xyz 0.9 0.9 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 601B927F)
@@ -3719,6 +3739,11 @@
       (net 53 /EN))
     (pad 1 smd rect (at 0 0 270) (size 1.5 1) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_CK_RS282G05A3.step
+      (offset (xyz 4 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module custom:K2-1107ST (layer F.Cu) (tedit 615F447E) (tstamp 61785B2B)
@@ -3874,6 +3899,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Connector.3dshapes/TF-01A.step
+      (offset (xyz 15 -15 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -4982,7 +5012,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61DDE0BD) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 61DDE21D) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -5551,7 +5581,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61DDE0BA) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 61DDE21A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
