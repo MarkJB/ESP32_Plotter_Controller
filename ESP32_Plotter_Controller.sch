@@ -935,7 +935,7 @@ F 3 "" H 9625 7785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9625 8210 9625 7785
+	9625 8210 9625 7950
 Wire Wire Line
 	9625 8210 10650 8210
 $Comp
@@ -950,7 +950,7 @@ F 3 "" H 9625 8785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9625 8410 9625 8785
+	9625 8410 9625 8575
 Wire Wire Line
 	9625 8410 10650 8410
 Wire Wire Line
@@ -1348,8 +1348,6 @@ Connection ~ 6055 2175
 Wire Wire Line
 	6055 2175 6325 2175
 Wire Wire Line
-	3525 1975 3775 1975
-Wire Wire Line
 	3400 2075 3775 2075
 Wire Wire Line
 	2775 2475 3775 2475
@@ -1545,7 +1543,7 @@ F 3 "" H 4325 12475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4325 12250 4325 12475
+	4325 12250 4325 12375
 $Comp
 L power:GND #NetPort07
 U 1 1 61900AC5
@@ -1679,8 +1677,6 @@ Wire Wire Line
 Connection ~ 7600 4250
 Wire Wire Line
 	7600 4250 8125 4250
-Wire Wire Line
-	3775 2175 3090 2175
 Wire Wire Line
 	5475 3275 5585 3275
 Text Label 6325 3275 2    50   ~ 0
@@ -1909,13 +1905,13 @@ Connection ~ 3525 1975
 $Comp
 L Device:R R7
 U 1 1 61DBB1E2
-P 3090 1940
-F 0 "R7" H 3160 1986 50  0000 L CNN
-F 1 "10k" H 3160 1895 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3020 1940 50  0001 C CNN
-F 3 "~" H 3090 1940 50  0001 C CNN
-	1    3090 1940
-	1    0    0    -1  
+P 2965 1825
+F 0 "R7" H 3035 1871 50  0000 L CNN
+F 1 "10k" H 3035 1780 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2895 1825 50  0001 C CNN
+F 3 "~" H 2965 1825 50  0001 C CNN
+	1    2965 1825
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R8
@@ -1937,20 +1933,6 @@ Wire Wire Line
 Connection ~ 5585 3275
 Wire Wire Line
 	5585 3275 6325 3275
-Wire Wire Line
-	3090 2090 3090 2175
-Connection ~ 3090 2175
-Wire Wire Line
-	3090 2175 2775 2175
-Wire Wire Line
-	3090 1740 3090 1790
-Wire Wire Line
-	3400 1535 3400 1740
-Wire Wire Line
-	3090 1740 3400 1740
-Connection ~ 3400 1740
-Wire Wire Line
-	3400 1740 3400 2075
 $Comp
 L Device:R R10
 U 1 1 61DFE2BA
@@ -2013,4 +1995,112 @@ Wire Wire Line
 Connection ~ 15895 4210
 Wire Wire Line
 	15895 4210 16250 4210
+$Comp
+L Device:C C14
+U 1 1 61EEFA0E
+P 9125 8300
+F 0 "C14" H 9240 8346 50  0000 L CNN
+F 1 "100nF" H 9240 8255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9163 8150 50  0001 C CNN
+F 3 "~" H 9125 8300 50  0001 C CNN
+	1    9125 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9125 8150 9125 7950
+Wire Wire Line
+	9125 7950 9625 7950
+Connection ~ 9625 7950
+Wire Wire Line
+	9625 7950 9625 7785
+Wire Wire Line
+	9125 8450 9125 8575
+Wire Wire Line
+	9125 8575 9625 8575
+Connection ~ 9625 8575
+Wire Wire Line
+	9625 8575 9625 8785
+$Comp
+L Device:C C13
+U 1 1 61F239D8
+P 5175 11750
+F 0 "C13" H 5290 11796 50  0000 L CNN
+F 1 "100nF" H 5290 11705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5213 11600 50  0001 C CNN
+F 3 "~" H 5175 11750 50  0001 C CNN
+	1    5175 11750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 11600 5175 10950
+Wire Wire Line
+	5175 10950 4325 10950
+Wire Wire Line
+	4325 12375 5175 12375
+Wire Wire Line
+	5175 12375 5175 11900
+Connection ~ 4325 12375
+Wire Wire Line
+	4325 12375 4325 12475
+$Comp
+L Device:C C12
+U 1 1 61F591BC
+P 3175 1820
+F 0 "C12" H 3290 1866 50  0000 L CNN
+F 1 "100nF" H 3290 1775 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3213 1670 50  0001 C CNN
+F 3 "~" H 3175 1820 50  0001 C CNN
+	1    3175 1820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 1975 3775 1975
+Wire Wire Line
+	3400 1535 3400 1595
+Wire Wire Line
+	2775 2175 2965 2175
+Wire Wire Line
+	3175 1670 3175 1595
+Wire Wire Line
+	3175 1595 3400 1595
+Connection ~ 3400 1595
+Wire Wire Line
+	3400 1595 3400 2075
+Wire Wire Line
+	3175 1970 3175 1975
+Wire Wire Line
+	3175 1975 3525 1975
+Wire Wire Line
+	2965 1975 2965 2175
+Connection ~ 2965 2175
+Wire Wire Line
+	2965 2175 3775 2175
+Wire Wire Line
+	2965 1675 2965 1595
+Wire Wire Line
+	2965 1595 3175 1595
+Connection ~ 3175 1595
+$Comp
+L Device:CP C15
+U 1 1 6200B006
+P 2395 1810
+F 0 "C15" H 2425 1900 50  0000 L CNN
+F 1 "22uF 10v" H 2190 1710 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2433 1660 50  0001 C CNN
+F 3 "~" H 2395 1810 50  0001 C CNN
+	1    2395 1810
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2965 1595 2395 1595
+Wire Wire Line
+	2395 1595 2395 1660
+Connection ~ 2965 1595
+Wire Wire Line
+	3175 1975 3175 2010
+Wire Wire Line
+	3175 2010 2395 2010
+Wire Wire Line
+	2395 2010 2395 1960
+Connection ~ 3175 1975
 $EndSCHEMATC
