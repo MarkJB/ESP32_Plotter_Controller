@@ -17,6 +17,6 @@ First board revision A (aka 'Diamiond Chimp')
 ![Render of top of board]( https://github.com/MarkJB/ESP32_Plotter_Controller/blob/embedded-esp32/RevB1_top_projection.png )
 
 
-![Render of bottom of board]( https://github.com/MarkJB/ESP32_Plotter_Controller/blob/embedded-esp32/RevB1_bottom.png )
+![Render of bottom of board]( https://github.com/MarkJB/ESP32_Plotter_Controller/blob/embedded-esp32/RevB1_bottom_projection.png )
 
 
