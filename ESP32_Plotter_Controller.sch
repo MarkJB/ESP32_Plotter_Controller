@@ -2103,4 +2103,8 @@ Wire Wire Line
 Wire Wire Line
 	2395 2010 2395 1960
 Connection ~ 3175 1975
+Text Label 3265 11550 0    50   ~ 0
+D+
+Text Label 3265 11650 0    50   ~ 0
+D-
 $EndSCHEMATC
