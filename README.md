@@ -8,7 +8,7 @@ See https://github.com/MarkJB/TMC429_Daughterboard_for_ESP32_Plotter_Controller 
 
 Firmware https://github.com/MarkJB/Grbl_Esp32 (This is a Fork of Grbl_Esp32, if its out of date, you probably only need the config file from this fork). Tested with standard and corexy kinematics and a solenoid/relay for the spindle.
 
-First board revision A (aka 'Diamiond Chimp')
+First board revision A (aka 'Diamiond Chimp'), this board revision B (aka Emerald Dingo)
 
 [Schematic]( https://github.com/MarkJB/ESP32_Plotter_Controller/blob/main/ESP32_Plotter_Controller_Schematic_RevA.pdf )
 
